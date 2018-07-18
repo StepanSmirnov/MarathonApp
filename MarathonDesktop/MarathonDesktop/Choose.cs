@@ -16,14 +16,14 @@ namespace MarathonDesktop
         {
             InitializeComponent();
         }
-
+        //Повторяется в нескольких окнах, можно избежать с помощью базовых форм
         private void button1_Click(object sender, EventArgs e)
         {
             LoginForm f = new LoginForm();
             f.Show();
             this.Close();
         }
-
+        //Повторяется в нескольких окнах
         private void timer1_Tick(object sender, EventArgs e)
         {
             DateTime dNow = DateTime.Now;
@@ -34,8 +34,10 @@ namespace MarathonDesktop
             int min = f.Minutes;
 
 
-            label1.Text = days.ToString() + " дней " + hours.ToString() + " часов " + min.ToString() + " минут до начала гонки";
-          
+            //label1.Text = days.ToString() + " дней " + hours.ToString() + " часов " + min.ToString() + " минут до начала гонки";
+            //Это называется интерполяция, есть во многих языках
+            label1.Text = $"{days} дней {hours} часов {min} минут до начала гонки";
+
         }
 
         private void button3_Click(object sender, EventArgs e)

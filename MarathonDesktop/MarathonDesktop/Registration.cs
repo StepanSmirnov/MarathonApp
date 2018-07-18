@@ -43,7 +43,7 @@ namespace MarathonDesktop
         {
            
         }
-
+        //Повторяется в нескольких окнах, можно избежать с помощью базовых форм
         private void timer1_Tick(object sender, EventArgs e)
         {
             DateTime dNow = DateTime.Now;
@@ -57,7 +57,7 @@ namespace MarathonDesktop
             label1.Text = days.ToString() + " дней " + hours.ToString() + " часов " + min.ToString() + " минут до начала гонки";
 
         }
-
+        //Повторяется в нескольких окнах, можно избежать с помощью базовых форм
         private void button3_Click(object sender, EventArgs e)
         {
             Choose f = new Choose();

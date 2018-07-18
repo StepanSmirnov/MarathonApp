@@ -52,7 +52,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(755, 65);
+            this.panel1.Size = new System.Drawing.Size(803, 65);
             this.panel1.TabIndex = 5;
             // 
             // button3
@@ -84,9 +84,9 @@
             this.panel2.BackColor = System.Drawing.Color.ForestGreen;
             this.panel2.Controls.Add(this.label1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 383);
+            this.panel2.Location = new System.Drawing.Point(0, 436);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(755, 56);
+            this.panel2.Size = new System.Drawing.Size(803, 56);
             this.panel2.TabIndex = 6;
             // 
             // label1
@@ -161,7 +161,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gold;
-            this.ClientSize = new System.Drawing.Size(755, 439);
+            this.ClientSize = new System.Drawing.Size(803, 492);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);

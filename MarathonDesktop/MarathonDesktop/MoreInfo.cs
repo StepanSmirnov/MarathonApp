@@ -21,7 +21,7 @@ namespace MarathonDesktop
         {
             
         }
-
+        //Повторяется в нескольких окнах, можно избежать с помощью базовых форм
         private void timer1_Tick(object sender, EventArgs e)
         {
             DateTime dNow = DateTime.Now;
@@ -41,7 +41,7 @@ namespace MarathonDesktop
 
             this.Close();
         }
-
+        //Повторяется в нескольких окнах, можно избежать с помощью базовых форм
         private void button5_Click(object sender, EventArgs e)
         {
             CharityList f = new CharityList();

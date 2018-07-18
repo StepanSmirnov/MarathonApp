@@ -34,7 +34,8 @@ namespace MarathonDesktop
             int min = f.Minutes;
 
 
-            label1.Text = days.ToString() + " дней " + hours.ToString() + " часов " + min.ToString() + " минут до начала гонки";
+            //label1.Text = days.ToString() + " дней " + hours.ToString() + " часов " + min.ToString() + " минут до начала гонки";
+            label1.Text = $"{days} дней {hours} часов {min} минут до начала гонки";
 
         }
 

@@ -21,6 +21,7 @@ namespace MarathonDesktop
             SqlDataReader reader = comm.ExecuteReader();
             int i = 1;
             int[] top = new int[100];
+            //Используй DataGridView или хотя бы ListView
             while (reader.Read())
             {
                 
@@ -71,7 +72,7 @@ namespace MarathonDesktop
         {
      
         }
-
+        //Повторяется в нескольких окнах, можно избежать с помощью базовых форм
         private void timer1_Tick(object sender, EventArgs e)
         {
             DateTime dNow = DateTime.Now;
@@ -85,7 +86,7 @@ namespace MarathonDesktop
             label1.Text = days.ToString() + " дней " + hours.ToString() + " часов " + min.ToString() + " минут до начала гонки";
 
         }
-
+        //Повторяется в нескольких окнах, можно избежать с помощью базовых форм
         private void button3_Click(object sender, EventArgs e)
         {
             MoreInfo f = new MoreInfo();

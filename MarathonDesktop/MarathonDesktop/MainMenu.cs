@@ -22,7 +22,7 @@ namespace MarathonDesktop
             MoreInfo f = new MoreInfo();
             f.Show();
         }
-
+        //Повторяется в нескольких окнах, можно избежать с помощью базовых форм
         private void timer1_Tick(object sender, EventArgs e)
         {
             DateTime dNow = DateTime.Now;
